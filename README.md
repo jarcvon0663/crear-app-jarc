@@ -1,5 +1,3 @@
-# crear-app-jarc
-Framework que usa capacitor para la creación de app móviles para android y iOS con proyectos web HTML
 Crear App JARC
 Un CLI simple y automatizado para generar proyectos base de aplicaciones móviles utilizando Capacitor, a partir de un proyecto web HTML/CSS/JS existente o uno básico.
 
@@ -59,7 +57,6 @@ Ejecuta el comando:
 
 crear-app-jarc
 
-
 Sigue las instrucciones interactivas en la terminal para configurar el nombre de tu aplicación, el ID del paquete y seleccionar las plataformas y plugins.
 
 La herramienta realizará los pasos necesarios (inicializar npm, instalar Capacitor, añadir plataformas, instalar plugins, sincronizar).
@@ -79,8 +76,8 @@ Abre el proyecto en Android Studio (npx cap open android) o Xcode (npx cap open 
 Esta herramienta fue creada por:
 
 Jeison Arturo Rios Castaño
-LinkedIn
-Sitio Web
+[LinkedIn](https://www.linkedin.com/in/jeisonrios/)
+[Sitio Web](https://www.arturo-rios.com/)
 
 📜 Licencia
 Este proyecto está bajo la Licencia MIT. Consulta el archivo LICENSE para más detalles.
