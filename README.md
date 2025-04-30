@@ -1,8 +1,15 @@
-Crear App JARC
-Un CLI simple y automatizado para generar proyectos base de aplicaciones móviles utilizando Capacitor, a partir de un proyecto web HTML/CSS/JS existente o uno básico.
+JARC
+Un framework CLI simple y automatizado para generar proyectos base de aplicaciones móviles utilizando Capacitor, a partir de un proyecto web HTML/CSS/JS existente o uno básico.
+
+## 🚀 ¡Video Demo en YouTube! 🎬
+
+👉 **Dale play y descubre JARC**  
+🎥 https://youtu.be/zE7IpgjeRA8
+
+✨ ¡No olvides suscribirte y dejar tu 👍!
 
 🚀 ¿Qué hace?
-crear-app-jarc es una herramienta de línea de comandos diseñada para simplificar el proceso inicial de convertir un proyecto web (ubicado en una carpeta www) en una aplicación móvil nativa utilizando Capacitor. Te guía a través de la configuración básica, instala las dependencias necesarias, añade las plataformas nativas (Android/iOS) y sincroniza los plugins seleccionados.
+JARC es una herramienta de línea de comandos diseñada para simplificar el proceso inicial de convertir un proyecto web (ubicado en una carpeta www) en una aplicación móvil nativa utilizando Capacitor. Te guía a través de la configuración básica, instala las dependencias necesarias, añade las plataformas nativas (Android/iOS) y sincroniza los plugins seleccionados.
 
 ✨ Características
 Configuración interactiva (nombre de la app, ID del paquete, plataformas).
@@ -17,7 +24,7 @@ Instalación opcional de plugins comunes de Capacitor.
 
 Sincronización inicial del proyecto.
 
-Intento de apertura automática del proyecto en Android Studio o Xcode.
+Apertura automática del proyecto en Android Studio o Xcode.
 
 📋 Prerrequisitos
 Antes de usar esta herramienta, asegúrate de tener instalado y configurado:
@@ -45,7 +52,7 @@ Consulta la documentación oficial de Capacitor para obtener instrucciones detal
 📦 Instalación
 Puedes instalar la herramienta globalmente en tu sistema para usarla desde cualquier directorio:
 
-npm install -g crear-app-jarc
+npm install -g jarc
 
 
 💡 Uso
@@ -55,7 +62,7 @@ Si ya tienes un proyecto web en una carpeta llamada www en este directorio, la h
 
 Ejecuta el comando:
 
-crear-app-jarc
+jarc
 
 Sigue las instrucciones interactivas en la terminal para configurar el nombre de tu aplicación, el ID del paquete y seleccionar las plataformas y plugins.
 
@@ -68,9 +75,9 @@ Navega al directorio de tu proyecto: cd tu-nombre-de-app
 
 Realiza los cambios en tu proyecto web dentro de la carpeta www.
 
-Después de hacer cambios en www, sincroniza con las plataformas nativas ejecutando: npx cap sync
+Después de hacer cambios en www, sincroniza con las plataformas nativas ejecutando: jarc update
 
-Abre el proyecto en Android Studio (npx cap open android) o Xcode (npx cap open ios) para construir, probar y ejecutar en emuladores o dispositivos.
+Abre el proyecto en Android Studio (jarc open) o Xcode (jarc open ios) para construir, probar y ejecutar en emuladores o dispositivos.
 
 👤 Creador
 Esta herramienta fue creada por:
